@@ -49,6 +49,10 @@
                 background: #FFFFFF;
             }
             
+            .header--bottom-line--blue {
+                border-bottom: 1px solid #D9FFF5;
+            }
+            
             .main__header {
                 display: flex;
                 justify-content: space-between;
@@ -97,7 +101,6 @@
                 right: 622px;
                 background: #FFFFFF;
                 border: 2px solid #B8FFEC;
-                box-sizing: border-box;
                 border-radius: 6px;
             }
             
@@ -238,6 +241,9 @@
                     background: #EAEAEA;
                     border-radius: 1px;
                     position: absolute;
+                }
+                .header__inner--margin-right--size {
+                    margin-right: 24px;
                 }
             }
             
